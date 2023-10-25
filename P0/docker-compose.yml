@@ -1,0 +1,7 @@
+# docker-compose.yml
+services:
+  app:
+    image: python:3.11-alpine
+    volumes:
+      - ./tests:/tests
+    working_dir: /tests
