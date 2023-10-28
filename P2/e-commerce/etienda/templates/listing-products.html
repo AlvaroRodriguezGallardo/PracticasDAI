@@ -1,0 +1,38 @@
+{% extends "padre.html" %}
+{% load static %}
+
+{% block head %}
+<!--Puede ser buena idea que, si se envía alguna petición GET para buscar algo, se devuelva la cadena o lo que se busca y salga aquí-->
+    <title>
+        Lista de productos
+    </title>
+{% endblock %}
+
+{% block main %}
+<div class="container text-center"><!--No pongo bloque aquí aunque use container en el resto, pues si no lo veo en los otros .html me lío-->
+    <div class="row">
+        {% for product in lista %}
+            <div class="alert col-md-4">
+                <div class="card mb-3 h-100">
+                    <div class="text-center"> 
+                        <img src="{% static product.imágen %}" style="height: 400px; width: 300px;" class="card-img-top" />
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-text text-ellipsis">{{ product.nombre }}</h4>
+                      <!--  <p class="card-text">{{ product.descripción }}</p>-->
+                        <h3 class="card-text" >{{ product.precio }} €</h3>
+                    </div>                     
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-success"><strong style="color: white;">Ver info</strong></a><!--Que haga petición enviando la categoría requerida, enlace tipo /etienda/buscar-<categoría> -->
+                    </div> 
+                </div>
+            </div>
+            {% if forloop.counter|divisibleby:"3" %}
+            <br>
+    </div>
+    <div class="row">
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
