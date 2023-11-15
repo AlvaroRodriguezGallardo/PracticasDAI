@@ -1,0 +1,44 @@
+[14/Nov/2023 18:12:30] INFO [etienda.views:55] Products of the category jewelery
+[14/Nov/2023 18:12:51] INFO [etienda.views:55] Products of the category videogames
+[14/Nov/2023 18:12:56] INFO [etienda.views:62] Products with substring sekiro
+[14/Nov/2023 18:12:59] INFO [etienda.views:62] Products with substring Sekiro
+[14/Nov/2023 18:13:04] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:13:12] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:13:19] INFO [etienda.views:55] Products of the category jewelery
+[14/Nov/2023 18:13:25] INFO [etienda.views:55] Products of the category women's clothing
+[14/Nov/2023 18:13:28] INFO [etienda.views:62] Products with substring shadows
+[14/Nov/2023 18:13:36] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:13:42] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:13:47] INFO [etienda.views:71] Insert page for new products
+[14/Nov/2023 18:14:06] INFO [etienda.views:55] Products of the category electronics
+[14/Nov/2023 18:15:03] INFO [etienda.views:55] Products of the category women's clothing
+[14/Nov/2023 18:15:06] INFO [etienda.views:71] Insert page for new products
+[14/Nov/2023 18:15:35] INFO [etienda.views:76] Inserting products within a data base
+[14/Nov/2023 18:15:43] INFO [etienda.views:55] Products of the category women's clothing
+[14/Nov/2023 18:15:49] INFO [etienda.views:71] Insert page for new products
+[14/Nov/2023 18:16:17] INFO [etienda.views:76] Inserting products within a data base
+[14/Nov/2023 18:17:01] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:17:07] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:17:10] INFO [etienda.views:55] Products of the category women's clothing
+[14/Nov/2023 18:17:16] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:17:21] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:21:51] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:22:58] INFO [etienda.views:62] Products with substring 
+[14/Nov/2023 18:25:55] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:26:01] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:27:24] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:27:35] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:27:39] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:27:46] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:27:49] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:27:57] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:29:19] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:29:24] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:29:28] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:29:34] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:30:07] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:30:12] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:30:21] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:30:27] INFO [etienda.views:133] Checking if a user is in DB
+[14/Nov/2023 18:30:37] INFO [etienda.views:127] Page for logging action
+[14/Nov/2023 18:30:43] INFO [etienda.views:133] Checking if a user is in DB

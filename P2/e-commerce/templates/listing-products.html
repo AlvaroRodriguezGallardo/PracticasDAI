@@ -1,0 +1,35 @@
+{% extends "padre.html" %}
+{% load static %}
+
+{% block head %}
+    <!-- Puede ser una buena idea manejar aquí las peticiones GET para búsqueda -->
+    <title>Listing products</title>
+{% endblock %}
+
+{% block main %}
+<div class="container mx-auto text-center">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {% for product in lista %}
+            <div class="col">
+                <div class="max-w-md rounded overflow-hidden shadow-lg h-full flex flex-col justify-between">
+                    <div class="relative">
+                        <img src="{% static product.imágen %}" alt="{{ product.nombre }}" class="mx-auto w-full" style="height: 400px;" />
+                    </div>
+                    <div class="px-6 py-4 text-center">
+                        <h3 class="font-bold text-xl mb-2">{{ product.nombre }}</h3>
+                        <p class="text-2xl font-semibold">{{ product.precio }} €</p>
+                    </div>
+                    <div class="p-4">
+                        <a href="#" class="w-40 bg-green-500 hover-bg-green-700 text-white font-bold py-2 px-4 rounded block text-center">
+                            Ver info
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+        {% endfor %}
+    </div>
+</div>
+
+
+{% endblock %}
