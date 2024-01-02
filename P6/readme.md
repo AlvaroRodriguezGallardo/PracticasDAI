@@ -51,6 +51,3 @@ Así que habrá que instalar VirtualBox si no está instalado, y añadir el PATH
 |------|--------|-------------|---------|---------------------------|-------|----------|--------|
 | dev  | -      | virtualbox  | Running | tcp://192.168.99.100:2376 |       | v18.09.3 |        |
 
-**Nota**: He continuado sin usar los comandos anteriores de docker-machine, ya que me daban bastantes problemas con el tema de la máquina virtual, y según he buscado no es necesario.
-
-9- 
