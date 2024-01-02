@@ -2,7 +2,7 @@ Aquí voy a subir unos apuntes del proceso de despliegue de la aplicación por s
 
 1- Crear archivo ``docker-compose-prod.yml``: Dentro de la carpeta del proyecto ponemos el archivo con lo siguiente 
 
-``
+```
 version: '3.7'
 
 services:
@@ -26,7 +26,7 @@ services:
 
 volumes:
   static:
-``
+```
 
 2- Modificar el resto de archivos de manera que se incluyan las cosas que hay en este [git](https://github.com/dotja/django-docker-compose) (por ahora no meterse en las carpetas, solo los archivos, aunque el .env aún no lo he usado).
 
