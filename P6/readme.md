@@ -30,7 +30,7 @@ volumes:
 
 2- Modificar el resto de archivos de manera que se incluyan las cosas que hay en este [git](https://github.com/dotja/django-docker-compose) (por ahora no meterse en las carpetas, solo los archivos, aunque el .env aún no lo he usado).
 
-3- Hay que tener instalado ``docker-compose`` (ya lo teníamos instalado) y ``docker-machine`` (este no lo teníamos, se instala con [estos pasos](https://github.com/dotja/django-docker-compose), aunque redirije a la página de docker-desktop, así que no sé si va incluido con docker-desktop, así que por ahora supongo que lo tengo también).
+3- Hay que tener instalado ``docker-compose`` (ya lo teníamos instalado) y ``docker-machine`` (este no lo teníamos, se instala con [estos pasos](https://github.com/dotja/django-docker-compose), aunque redirije a la página de docker-desktop, así que no sé si va incluido con docker-desktop, así que por ahora supongo que lo tengo también).En Windows hacer con git bash, pero parece que para la terminal en general no se hace.
 
 4- Ahora estoy trabajando en Ubuntu, pero para Mac y Windows hay que instalar también Docker Toolbox.
 
