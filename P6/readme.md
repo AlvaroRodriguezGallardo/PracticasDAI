@@ -32,7 +32,7 @@ volumes:
 
 3- Hay que tener instalado ``docker-compose`` (ya lo teníamos instalado) y ``docker-machine`` (este no lo teníamos, se instala con [estos pasos](https://github.com/dotja/django-docker-compose), aunque redirije a la página de docker-desktop, así que no sé si va incluido con docker-desktop, así que por ahora supongo que lo tengo también).En Windows hacer con git bash, pero parece que para la terminal en general no se hace.
 
-4- Ahora estoy trabajando en Ubuntu, pero para Mac y Windows hay que instalar también Docker Toolbox.
+4- Ahora estoy trabajando en Ubuntu, pero para Mac y Windows hay que instalar también Docker Toolbox. Para windows meterse [aquí](https://docker-docs.uclv.cu/toolbox/toolbox_install_windows/)
 
 5- Ejecutar ``docker-compose version`` y ``docker-machine version``. Debe salir como que está instalado, así que deduzco que tengo que instalar docker-machine porque no va implícito en Docker Desktop. He encontrado esta [página](https://gdevillele.github.io/machine/install-machine/) que explica mejor los pasos para instalar docker-machine, y al menos ya me funciona ``docker-machine version``.
 
