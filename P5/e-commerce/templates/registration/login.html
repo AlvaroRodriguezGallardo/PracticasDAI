@@ -1,0 +1,49 @@
+{% extends 'padre.html' %}
+<!-- templates/registration/login.html -->
+{% block head %}
+  <title>Login Page</title>
+{% endblock %}
+
+{% block main %}
+<div class="container p-4 mx-auto">
+  <form action="{% url 'comprobarDatosLogin' %}" class="w-full max-w-md mx-auto bg-yellow-100 shadow-md rounded px-8 pt-6 pb-8 mb-4" method="post" enctype="multipart/form-data">
+    
+    {% csrf_token %}
+
+    <div class="mb-4">
+      <label for="id_username" class="block text-gray-700 text-sm font-bold mb-2">
+        <strong>Username</strong>
+      </label>
+      {{ form.username }}
+    </div>
+
+    <div class="mb-4">
+      <label for="id_contrasenia" class="block text-gray-700 text-sm font-bold mb-2">
+        <strong>Password</strong>
+      </label>
+      {{ form.contrasenia }}
+    </div>
+
+    <button type="submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+      Login
+    </button>
+  </form>
+</div>
+
+
+{% if messages %}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          {% for message in messages %}
+            <div class="alert {{ message.tags }} alert-dismissible fade show" role="alert">
+              {{ message }}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "padre.html" %}
+{% load static %}
+
+{% block head %}
+    <title>Main page</title>
+{% endblock %}
+
+{% block main %}
+<div class="container mx-auto text-center">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {% for product in lista %}
+            <div class="col">
+                <div class="max-w-md rounded overflow-hidden shadow-lg h-full flex flex-col justify-between"><!--Aquí está todo para la colocación de elementos-->
+                    <div class="relative">
+                        <img src="{% static product.imágen %}" alt="{{ product.categoría }}" class="mx-auto w-full" style="height: 400px;">
+                    </div>
+                    <div class="px-6 py-4 text-center">
+                        <h3 class="font-bold text-xl mb-2">{{ product.categoría }}</h3>
+                    </div>
+                    <div class="px-6 py-4">
+                        <a href="/etienda/buscarCategoria/{{ product.categoría }}" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded block float-left ml-4">
+                            View items
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
