@@ -1,0 +1,18 @@
+# docker-compose.yml
+services:
+  app:
+    build: ./e-commerce
+    volumes:
+      - ./e-commerce:/e-commerce
+    ports:
+      - 8000:8000
+    depends_on:
+      - mongo
+    command: python manage.py runserver 0.0.0.0:8000
+
+  mongo:
+    image: mongo:6.0
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data:/data/db
