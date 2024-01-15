@@ -51,3 +51,8 @@ Así que habrá que instalar VirtualBox si no está instalado, y añadir el PATH
 |------|--------|-------------|---------|---------------------------|-------|----------|--------|
 | dev  | -      | virtualbox  | Running | tcp://192.168.99.100:2376 |       | v18.09.3 |        |
 
+
+**SE PUEDE HACER SIN DOCKER-MACHINE, SOLO CONFIGURANDO BIEN NGINX Y EL RESTO DE ARCHIVOS**.
+
+**SOLO LOS ARCHIVOS NECESARIOS PARA EL DESPLIEGUE VAN A SER SUBIDOS AQUÍ. EL CÓDIGO Y RESTO DE DOCUMENTOS SON LOS MISMOS QUE EN LA P5**
+**
